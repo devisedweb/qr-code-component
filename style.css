@@ -13,4 +13,21 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.qr-component {
+  width: 20rem;
+  margin: 14.406rem auto;
+}
+
+img,
+.text {
+  width: 18rem;
+  margin: 0;
+}
+
+.heading {
+  font-size: 1.375rem;
+  font-weight: bold;
 }
