@@ -12,8 +12,8 @@ body {
 
 /* Component Styles */
 .qr-component {
-  width: 20rem;
-  margin: 9.781rem auto;
+  max-width: 20rem;
+  margin: 0 auto;
   padding: 1rem;
   padding-bottom: 0;
   border-radius: 1.25rem;
@@ -25,8 +25,7 @@ body {
 }
 
 /* QR image styles */
-img,
-.text {
+img {
   width: 18rem;
   margin: 0;
 }
@@ -38,6 +37,8 @@ img {
 
 /* Text Styles */
 .text {
+  width: 18rem;
+  margin: 0;
   text-align: center;
   margin: 0 1rem 2.5rem 1rem;
   padding: 0 1rem;
