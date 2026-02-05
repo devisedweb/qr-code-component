@@ -5,3 +5,12 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 } */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
