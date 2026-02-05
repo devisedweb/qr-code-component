@@ -13,7 +13,7 @@ body {
 /* Component Styles */
 .qr-component {
   width: 20rem;
-  margin: 14.406rem auto;
+  margin: 9.781rem auto;
   padding: 1rem;
   padding-bottom: 0;
   border-radius: 1.25rem;
@@ -58,6 +58,12 @@ img {
   line-height: 140%;
   letter-spacing: 0.013rem;
   margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .qr-component {
+    margin: 14.406rem auto;
+  }
 }
 
 /* Reference Styles */
